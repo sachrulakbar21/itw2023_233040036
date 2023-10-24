@@ -52,7 +52,7 @@ table {
 body{
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(img/background.png);
+    background-image: url(IMG/komp.jpg)
     color: #333;
 }
 
@@ -92,9 +92,9 @@ body{
 
 .hero {
     height: 280px;
-    background-image: url(img/hero.jpg);
+    background-image: url(IMG/komp.jpg);
     background-size: cover;
-    background-position: 0 -150;
+    background-position: 0 -400px;
     border-top: 5px solid salmon;
     border-bottom: 5px solid lightskyblue;
 }
