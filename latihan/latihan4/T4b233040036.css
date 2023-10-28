@@ -50,9 +50,9 @@ table {
 
 
 body{
-    font: 16px/28px Arial, sans-serif;
+    font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(img/background.png);
+    background-image: url(IMG/wallpaperflare.com_wallpaper.jpg);
     color: #333;
 }
 
@@ -92,7 +92,7 @@ body{
 
 .hero {
     height: 280px;
-    background-image: url(img/hero.jpg);
+    background-image: url(IMG/borobudur2.jpg);
     background-size: cover;
     background-position: 0 -150;
     border-top: 5px solid salmon;
@@ -103,6 +103,11 @@ body{
 .content {
     padding: 20px;
 }
+
+.content li {
+    font-weight: bold;
+}
+
 
 .content h2 {
     font-size: 28px;
@@ -121,8 +126,15 @@ body{
 
 .content p {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 18px;
 }
+
+.hero {
+    height: 400px;
+    background-image: url(IMG/borobudur2.jpg);
+    background-size: cover;
+    background-position: 0 px;
+} 
 
 .footer {
     background-color: #333;
