@@ -52,7 +52,7 @@ table {
 body{
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(IMG/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(IMG/triangles_pattern.webp);
     color: #333;
 }
 
@@ -92,9 +92,9 @@ body{
 
 .hero {
     height: 280px;
-    background-image: url(IMG/borobudur2.jpg);
+    background-image: url(IMG/komp.jpg);
     background-size: cover;
-    background-position: 0 -150;
+    background-position: 0 -400px;
     border-top: 5px solid salmon;
     border-bottom: 5px solid lightskyblue;
 }
@@ -103,11 +103,6 @@ body{
 .content {
     padding: 20px;
 }
-
-.content li {
-    font-weight: bold;
-}
-
 
 .content h2 {
     font-size: 28px;
@@ -126,15 +121,8 @@ body{
 
 .content p {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 14px;
 }
-
-.hero {
-    height: 400px;
-    background-image: url(IMG/borobudur2.jpg);
-    background-size: cover;
-    background-position: 0 px;
-} 
 
 .footer {
     background-color: #333;
@@ -145,12 +133,4 @@ body{
     color: #eaeaea;
     text-align: center;
     font-size: 12px;
-}
-
-.hero1 {
-    height: 400px;
-    background-image: url(IMG/borobudur.jpg);
-    background-size: cover;
-    margin-top: 10px;
-    margin-bottom: 20px;;
 }
