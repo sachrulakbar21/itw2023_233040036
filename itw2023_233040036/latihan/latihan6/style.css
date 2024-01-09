@@ -32,7 +32,7 @@ nav .logo {
 nav ul {
     display: flex;
     list-style: none;
-    width: 40%;
+    width: 30%;
     justify-content: space-between;
     text-shadow: 4px 4px 4px rgba(255, 253, 253, 0.7);
 }
@@ -59,7 +59,7 @@ nav ul li a:hover {
 
 .menu-toggle input {
     position: absolute;
-    width: 40px;
+    width: 30px;
     height: 28px;
     top: -3px;
     left: -5px;

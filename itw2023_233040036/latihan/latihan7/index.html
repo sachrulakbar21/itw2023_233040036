@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS GRID</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Marvel & Starwars</h2>
+          <p class="sub-heading">Darth Vader & Stormtrooper</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 250K</h4>
+          <p class="item">Stormtrooper</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">150K</h4>
+          <p class="item">Darth Vader</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Marvel & Starwars</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">1</div>
+          <h3>Iron Man</h3>
+          <p>
+            Iron Man is a superhero appearing in American comic books published by Marvel Comics. Co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby, the character
+            first appeared in Tales of Suspense in 1963, and received his own title with Iron Man in 1968.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">2</div>
+          <h3>Stormtrooper</h3>
+          <p>
+            Stormtroopers (STs)—also known as Imperial stormtroopers and colloquially referred to as "bucketheads"—were the elite shock troops of the Galactic Empire, and were part of the Stormtrooper Corps, an independent military branch
+            operating under the Imperial Army. These elite, obedient and zealous soldiers wore armor consisting of white plastoid plates over a black body glove, and their standard weapon was the E-11 medium blaster rifle.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">3</div>
+          <h3>Darth Vader</h3>
+          <p>
+            Darth Vader is a fictional character in the Star Wars franchise. The character is the central antagonist of the original trilogy and, as Anakin Skywalker, is one of the main protagonists in the prequel trilogy. Star Wars creator
+            George Lucas has collectively referred to the first six episodic films of the franchise as "the tragedy of Darth Vader".
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon">4</div>
+          <h3>Custom</h3>
+          <p>
+            CREATE A CUSTOM, ACTION FIGURE CUSTOM ACTION FIGURES & PERSONALIZED ACTION FIGURES YOUR PERSONALIZED ACTION FIGURES CAN HAVE ANY CUSTOMIZATION LEVEL, FROM CUSTOM CLOTHING, TATTOOS, AND ACCESSORIES & WE CAN MAKE YOUR ACTION
+            FIGURE TALK.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/201x201" alt=""></img>
+        <img src="https://source.unsplash.com/random/202x202" alt=""></img>
+        <img src="https://source.unsplash.com/random/203x203" alt=""></img>
+        <img src="https://source.unsplash.com/random/204x204" alt=""></img>
+        <img src="https://source.unsplash.com/random/205x205" alt=""></img>
+        <img src="https://source.unsplash.com/random/206x206" alt=""></img>
+        <img src="https://source.unsplash.com/random/207x207" alt=""></img>
+        <img src="https://source.unsplash.com/random/208x208" alt=""></img>
+        <img src="https://source.unsplash.com/random/209x209" alt=""></img>
+        <img src="https://source.unsplash.com/random/210x210" alt=""></img>
+        
+
+  
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
